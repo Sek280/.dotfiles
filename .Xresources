@@ -1,0 +1,20 @@
+!! URxvt Appearance
+URxvt.font: xft:Iosevka:style=Regular:size=12
+URxvt.boldFont: xft:Iosevka:style=Bold:size=12
+URxvt.italicFont: xft:Iosevka:style=Italic:size=12
+URxvt.boldItalicfont: xft:Iosevka:style=Bold Italic:size=12
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
